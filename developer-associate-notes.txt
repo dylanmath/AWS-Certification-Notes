@@ -1,0 +1,40 @@
+AWS Exam Prep
+
+Global Infrastructure
+
+Region = geographical area, each region has at least 2 availability zones
+Availability Zone (AZ) = a data centre or a collection of data centres
+Edge Location = Content Delivery Network endpoint for cloudfront, meaning its a way to cache the content to an endpoint
+
+Network and Content Delivery 
+
+    VPC = virtual private cloud, virtual data centre where you can deploy assets, multiple VPCs per region
+
+    HIGHLY important part of exams - will know how to build a VPC from memory
+
+    Route53 = AWS DNS service
+
+    Cloudfront = edge locations for caching content
+
+    Direct Connect = connecting to AWS via dedicated telephone lines from non-AWS locations
+
+    EC2 = Elastic Compute Cloud, virutal machines in the cloud that run on AWS 
+    EC2 Container Service (ECS) = scalable docker container management services
+
+    Elastic Beanstalk = 
+
+    Lambda = serverless compute for running code, responding to events
+
+    Lightsail = out of the box cloud, e.g. Wordpress, will be deployed automatically (for people who don't know how to use AWS)
+
+    S3 = Simple Storage Service, virtual disk in the cloud that can store objects
+
+    Glacier = place to archive S3 files, large files not referenced, extremely low cost, store files for compliance reasons, 3-4 hours to retrieve
+
+    EFS Elastic File Service = file based storage that you can share, e.g. install apps, dbs, sharing volume with multiple machines 
+
+    Storage Gateway = way to connect S3 to on-prem data storage 
+
+IAM
+
+VPC 
