@@ -33,7 +33,33 @@ Network and Content Delivery
 
     EFS Elastic File Service = file based storage that you can share, e.g. install apps, dbs, sharing volume with multiple machines 
 
+    EBS = Elastic Block Store 
+
     Storage Gateway = way to connect S3 to on-prem data storage 
+
+Databases
+
+    RDS = Relational Database Service, mysql, postgres, sqlserver, oracle, mariadb, aurora (mysql & prostgres)
+    DynamoDB = non relational database, nosql, highly scalable, high performance
+    Redshift = data warehousing solution for AWS, used for reporting, queries etc. 
+    Elastic Cache = way to cache data in the cloud, takes load of database
+
+Migration services
+
+    Snowball (import/export) = enterprise level, terabites, breifcase sized appliance, storage, load data onto appliance then send back to AWS
+    Snowball Edge = not just appliance, adding compute capacity to the appliance, an on prem piece of AWS data centre
+    DMS (database migration services) = migrate on prem databases onto AWS cloud, or onto other regions, other types of databases, no downtime, can move from oracle to aurora DMS handles the conversion process
+    SMS Server Migration Services = same as DMS, but targets virtual machines, specifically VMWare, replicates VMs upto the AWS cloud
+
+Analytics
+
+    Athena = run SQL queries on S3, eg. query csv files
+    EMR (elastic map reduce) = big data processing, process large amounts of data, logs analysis etc. hadoop/spark/presto
+    CLoud Search = search engine for website or application, fully managed by AWS 
+    Elastic Search = search engine for website or application, open source 
+    Kinesis = streaming and analysing real time data at scale, e.g. financial transactions, social media streams
+    Data Pipeline = service that allows to move data from one place to another, eg. move data from S3 to DynamoDB
+    Quick Sight = busienss analytics tool (BI) dashboards for analyzing business data 
 
 IAM
 
