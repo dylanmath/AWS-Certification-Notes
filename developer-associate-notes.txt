@@ -63,4 +63,73 @@ Analytics
 
 IAM
 
-VPC 
+    IAM
+    Inspector
+    Certificate Manager
+    Directory Service
+    WAF
+    AWS Artifact - Compliance Reports
+
+Management Tools
+
+    Cloud Watch
+    Cloud Formation - Infrastructure as Code
+    Cloud Trail - auditing changes to your AWS environment
+    OpsWorks - automating deployments using Chef
+    Config - automatically monitors environments
+    Service Catalog - large enterprises
+    Trusted Advisor
+
+Application Services
+
+    Step Functions
+    SWF - Simple Workflow Service, coordinates workflows between human and machine (Amazon fulfillment centre)
+    API Gateway - door for apps to access backend data
+    AppStream - streaming desktop applications to users
+    Elastic Transcoder - changes video formats for all different devices
+
+Developer Tools
+
+    CodeCommit - github
+    CodeBuild - compiling code
+    CodeDeploy - deploy code to EC2 instances
+    CodePipeline - version control of code (dev, test, prod, etc)
+
+Mobile Services
+
+    Mobile Hub
+    Cognito - user sign up and sign in
+    Device Farm
+    Mobile Analytics
+    PinPoint - google analytics for mobile applications  combined with targeted marketing campaigns
+
+Business Productivity
+
+    WorkDocs
+    WorkMail
+
+IoT 
+
+    IoT
+
+Desktop & App streaming
+
+    WorkSpaces - virtual desktops 
+    AppStraem 2.0 - streaming desktop apps to users
+
+Artificial Intelligence
+
+    ML (Machine Learning) - datasets and predictions
+    Lex - backbone of Alexa
+    Polly - text to voice, different voices and languages
+    Recoknition - image classification, facial recognition
+
+Messaging
+
+    SNS - Simple Notification Service, email, txt, publish to HTTP endpoints
+    SQS - Decoupling applications, simple queue service, job queue, no tightly coupled dependencies
+    SES - simple email service 
+
+
+
+
