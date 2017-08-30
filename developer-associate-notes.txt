@@ -2,8 +2,8 @@ AWS Exam Prep
 
 Global Infrastructure
 
-Region = geographical area, each region has at least 2 availability zones
-Availability Zone (AZ) = a data centre or a collection of data centres
+Region = geographical area, each region has at least 2 availability zones (16 regions asat Feb17)
+Availability Zone (AZ) = a data centre or a collection of data centres, Availability Zones are distinct locations within an AWS region that are engineered to be isolated from failures.
 Edge Location = Content Delivery Network endpoint for cloudfront, meaning its a way to cache the content to an endpoint
 
 Network and Content Delivery 
@@ -129,6 +129,28 @@ Messaging
     SNS - Simple Notification Service, email, txt, publish to HTTP endpoints
     SQS - Decoupling applications, simple queue service, job queue, no tightly coupled dependencies
     SES - simple email service 
+
+
+
+
+
+AWS Global Infrastructure
+
+Networking & Content Delivery
+
+Compute
+
+Storage
+
+Databases
+
+Security & Identity
+
+Management Tools
+
+Messaging
+
+Desktop & App streaming
 
 
 
